@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    height: 2104px;
+}
+
+
+
+#container {
+    max-width: 1231px;
+    width: 100%;
+    height: 72px;
+    padding: 12px 24px;
+    margin-left: 689px;
+
+}
+
+#nav_container {
+    max-width: 1183px;
+    width: 100%;
+}
+
+#nav_list {
+    display: inline-block;
+    margin-left: 277px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#about,
+#help {
+    color: #323;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#offer {
+    color: #323;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 20px;
+}
+
+#contact {
+    color: #8E26C0;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 20px;
+}
+
+
+#contact_us {
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    color: #8E26C0;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 16px;
+    margin-left: 300px;
+}
+
+#main_img {
+    width: 610px;
+    height: 458px;
+    margin-top: 142px;
+    margin-left: 350px;
+    margin-right: 45px;
+    vertical-align: middle;
+}
+
+
+#header_container {
+    display: inline-block;
+    max-width: 644px;
+    width: 100%;
+    vertical-align: middle;
+    margin-top: 220px;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+
+#lorem {
+    color: #535862;
+    font-family: Prata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+#ordered_list {
+    color: #000;
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 30px;
+    line-height: 32px;
+    gap: 12px;
+}
+
+#flexible,
+#tools {
+    margin: 12px 0;
+}
+
+
+
+#main_div {
+    max-width: 1250px;
+    width: 100%;
+    height: 704px;
+    display: inline-block;
+    margin-left: 350px;
+    margin-top: 83px;
+}
+
+h2 {
+    max-width: 905px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 auto;
+}
+
+#lorem_two {
+    width: 780px;
+    color: #535862;
+    text-align: center;
+    font-family: Prata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+}
+
+#message_container {
+    width: 100%;
+    height: 550px;
+    padding: 32px;
+    display: inline-block;
+
+}
+
+#message_container_display {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#left_container {
+    max-width: 403px;
+    width: 100%;
+    height: 474px;
+    padding: 20px;
+    border-radius: 16px;
+    background: #FFF;
+    margin-right: 24px;
+}
+
+
+#adress_img {
+    margin-left: 32px;
+    margin-right: 16px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#email_img {
+    padding: 10px;
+    margin-left: 32px;
+    margin-right: 16px;
+    vertical-align: middle;
+    margin-top: 18px;
+
+}
+
+#adress {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#email {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 24px;
+}
+
+h3 {
+    color: #000;
+    font-family: Phetsarath;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#information {
+    width: 254.2px;
+    color: #6D5F8B;
+    font-family: Prata;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#phone {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 24px;
+}
+
+#phone_img {
+    padding: 10px;
+    margin-left: 32px;
+    margin-right: 16px;
+    vertical-align: middle;
+    margin-top: 18px;
+}
+
+
+#right_container {
+    max-width: 759px;
+    width: 100%;
+    height: 414px;
+    display: inline-block;
+}
+
+h4 {
+    color: #1B003D;
+    font-family: "Noto Sans Georgian";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#full_name {
+    color: #1B003D;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+#text_name {
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    padding: 8px 16px;
+    width: 759px;
+    height: 32px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+
+#email_text {
+    color: #1B003D;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#write_something {
+    width: 759px;
+    height: 146px;
+    padding: 12px 16px;
+    border-radius: 16px;
+    border: 1px solid #8E26C0;
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+#button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 140px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: #8E26C0;
+    margin-top: 24px;
+    margin-left: 619px;
+}
+
+footer {
+    width: 100%;
+    height: 480px;
+    padding: 64px 0px 48px 0px;
+    background: #53389E;
+    margin-top: 163px;
+}
+
+#row {
+    width: 1216px;
+    height: 240px;
+    padding: auto 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+    text-align: left;
+}
+
+h4 {
+    color: #D6BBFB;
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #E9D7FE;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#end {
+    display: flex;
+    width: 1216px;
+    height: 32px;
+    padding-top: 32px;
+    justify-content: space-between;
+    row-gap: 24px;
+    border-top: 1px solid #7F56D9;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+#foot_p {
+    color: #D6BBFB;
+    font-family:Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
